@@ -1,0 +1,20 @@
+{
+    "name": "kote/app",
+    "autoload": {
+        "psr-4": {
+            "Kote\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "414ed3212",
+            "email": "45625863+414ed3212@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "../App"
+        }
+    }
+}

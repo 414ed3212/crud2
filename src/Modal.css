@@ -1,0 +1,207 @@
+.modalBackground {
+    width: 100vw;
+    height: 82.6vh;
+    position:fixed;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .modalContainer {
+    min-width: 800px;
+    min-height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left:25px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: #222;
+    color: white;
+    border-radius: 8px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  #cancelBtn {
+    background-color: #222;
+  }
+.title >form>input{
+  width: 35%;
+  height: 5px;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  display:flex;
+  resize: none;
+  flex-direction: column;
+}
+.title>form>span{
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  font-size:1rem;
+
+}
+.Options{
+  display:flex;
+  flex-direction:column;
+  width: 25%;
+}
+.submitBtn1{
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+.submitBtn2{
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: #222;
+  color: white;
+  border-radius: 8px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.modal--errors{
+  color:red;
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.modal--input{
+  position:fixed;
+}
+.cont--check{
+  display:flex;
+  justify-content: right;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width:70%;
+  border:1px solid black;
+  border-width: 5px 20px;
+  border: solid;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.delete-btn{
+  display:flex;
+  justify-content: center;
+  font-size:2rem;
+}
+#delete-product-btn{
+  background-color:#222; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor:pointer;
+}
+/* .nav--link{
+  background-color:rgb(180, 175, 175);
+  border: none;
+  padding: 15px 30px;
+  border-radius:5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+} */
+.delete-checkbox{
+ color:white;
+}
+input[type=checkbox] {
+  transform: scale(1.5);
+  cursor:pointer;
+}
+.add--btn{
+  padding-left:80rem;
+}
+.add{
+  background-color:rgb(180, 175, 175);
+  border: none;
+  padding: 15px 30px;
+  border-radius:5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
